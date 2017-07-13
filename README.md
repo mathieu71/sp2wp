@@ -31,3 +31,8 @@ Pour convertir une ou plusieurs rubriques de Spip en site WordPress autonome.
 
 - Faire deux passes, l'une pour détecter les documents utilisés, ... , l'autre pour générer le code WordPress.
 - Appeler les fonctions de SPIP (Global.php) de conversion SPIP vers HTML, dans lesquelles on remplace les user_call_func vers les fonctions générant le code WordPress
+
+## Bonus
+
+- vérification des liens externes (302, 404...)
+- vérification et correction éventuelle du html (suite à des insertions HTML malheureuses comme <doc12/>... )
